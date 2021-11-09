@@ -51,7 +51,7 @@ def about(update, context):
         "Source Code", url="https://github.com/Anshugood123/xIGDLBot")]]
     reply_markup = InlineKeyboardMarkup(keyboard)
     context.bot.send_message(chat_id=update.message.chat_id,
-                             text='''I can help you to download media from any public instagram account without leaving Telegram.\n\nMade with ❤️ + python-telegram-bot by @NandiyaLive''', parse_mode=telegram.ParseMode.HTML, reply_markup=reply_markup)
+                             text='''I can help you to download media from any public instagram account without leaving Telegram.\n\nMade with ❤️ + python-telegram-bot by @durvo''', parse_mode=telegram.ParseMode.HTML, reply_markup=reply_markup)
 
 
 def echo(update, context):
@@ -195,7 +195,7 @@ def feed(update, context):
     bot.send_message(chat_id=update.message.chat_id,
                      text="This feature is still under development. Please use @Anshu888o if you like to beta test this feature.")
 
-    # user = context.bot.get_chat_member(chat_id='-1001225141087', user_id=update.message.chat_id)
+    # user = context.bot.get_chat_member(chat_id='-1001504698375', user_id=update.message.chat_id)
     # status = user["status"]
     # if(status == 'left'):
     #     context.bot.send_message(chat_id=update.message.chat_id,text="To use to bot you need to be a member of @MOVIES_anD_sErIeS_requestiing in order to stay updated with the latest developments.")
